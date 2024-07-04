@@ -191,14 +191,25 @@ footer{
     height: 500px;
     width: 100%;
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
     
   }
 .foot iframe{
   float: left;
 }
 .contact{
+  padding: 5px;
+  margin: 5px;
+}
+#contact{
   padding: 1px;
   margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 
@@ -207,10 +218,47 @@ footer{
 }
 .foot form {
   padding: 70px 0px;
-  text-align: center;
+  background-color: #c2c5cf;
+  align-self: center;
+  max-width: 300px;
+  box-sizing: border-box;
+
   
 }
 .address{
   float: left;
   margin: 0 30px;
+}
+
+@media (min-width:300px) and (max-width:700px){
+  body{
+    background-color: antiquewhite;
+  }
+  .nav a{
+    font-size: 10px;
+  }
+  .product div{
+    height: 310px;
+    width: 200px;
+  }
+  .product h1{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .product .price{
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .product .price-button{
+    background-color: var(---btnclr);
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+  .product img{
+    height: 60%;
+    width: 90%;
+  }
 }
