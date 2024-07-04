@@ -41,7 +41,7 @@ body {
 }
 .banner button{
   background-color: var(---active);
-  top: 40%;
+  top: 50%;
   left: 10%;
   position: absolute;
   padding: 10px 16px;
