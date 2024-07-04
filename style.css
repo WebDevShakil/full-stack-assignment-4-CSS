@@ -188,7 +188,6 @@ footer{
     background-color: rgb(110, 110, 110);
 }
 .foot{
-    height: 500px;
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -196,22 +195,7 @@ footer{
     padding: 0 5%;
     
   }
-.foot iframe{
-  float: left;
-}
-.contact{
-  padding: 5px;
-  margin: 5px;
-}
-#contact{
-  padding: 1px;
-  margin: 10px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
+
 
 .message-text{
   resize: none;
@@ -231,18 +215,15 @@ footer{
 }
 
 @media (min-width:300px) and (max-width:700px){
-  body{
-    background-color: antiquewhite;
-  }
   .nav a{
     font-size: 10px;
   }
   .product div{
-    height: 310px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
   }
   .product h1{
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: bold;
     margin-bottom: 15px;
   }
@@ -261,4 +242,6 @@ footer{
     height: 60%;
     width: 90%;
   }
+
+  
 }
