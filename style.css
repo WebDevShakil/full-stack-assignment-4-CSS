@@ -55,7 +55,6 @@ body {
 .banner img{
   width: 100%;
   position: relative;
-  height: 400px;
   
   
 }
@@ -65,7 +64,7 @@ body {
 }
 .ads{
   padding: 0 50px;
-}
+  height: 500px;}
 .left-div{
   width:35%;
   height: 400px;
@@ -243,6 +242,26 @@ footer{
     height: 60%;
     width: 90%;
   }
+  .banner img{
+    width: 100%;
+    position: relative;
+    height: 200px;
+  }
+  .banner button{
+    top: 20%;
+    font-size: 10px;
+  }
+  .ads{
+    height: 300px;
+  }
+  
+  .right-div{
+    height: 300px;
+  }
+  .left-div{
+    height: 300px;
+  }
+  
 
   
 }
