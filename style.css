@@ -220,7 +220,8 @@ footer{
   }
   .product div{
     height: 200px;
-    width: 150px;
+    width: 120px;
+    margin: 10px 5px;
   }
   .product h1{
     font-size: .5rem;
